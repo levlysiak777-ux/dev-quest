@@ -15,8 +15,8 @@ assets/img/     – ilustracje (hero, recepcja, portrety zespołu, og-image)
 
 ## Wdrożenie na Netlify
 
-Przeciągnij katalog `novadent/` na app.netlify.com/drop albo ustaw w ustawieniach
-build: *publish directory* = `novadent`, bez komendy build.
+Przeciągnij katalog `projects/novadent/` na app.netlify.com/drop albo ustaw
+w ustawieniach build: *publish directory* = `projects/novadent`, bez komendy build.
 
 Formularz „Umów wizytę" korzysta z Netlify Forms (`data-netlify="true"`,
 honeypot `bot-field`). Zgłoszenia pojawiają się w panelu Netlify → Forms →
